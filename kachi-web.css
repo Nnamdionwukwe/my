@@ -1,0 +1,792 @@
+body {
+  background-image: url(hair-pictures/IMG_7963.PNG);
+}
+
+.banner1-div {
+  position: relative;
+}
+
+.banner1 {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.banner2 {
+  position: absolute;
+  top: 0px;
+  right: 290px;
+  width: 100px;
+}
+
+.banner2 img {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+
+.banner3 {
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  width: 70px;
+}
+
+.banner3 img {
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+  cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+.white {
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  background-color: lightblue;
+  width: 245px;
+  height: 30px;
+}
+
+.number {
+  position: absolute;
+  top: -5px;
+  color: rgb(34, 33, 33);
+  right: 20px;
+}
+
+
+
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  width: 70px;
+  object-fit: cover;
+  padding: 10px;
+  cursor: pointer;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.header {
+  margin-top: -80px;
+  margin-left: 60px;
+}
+
+.search-bar {
+  width: 400px;
+  height: 35px;
+  padding-left: 10px;
+  color: lightgray;
+  font-size: 16px;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+  margin: 40px 0px;
+}
+
+.first-grid {
+  display: flex;
+  align-items: center;
+}
+
+.div1 {
+  width: 1000px;
+}
+
+.div2 {
+  width: 500px;
+}
+
+.flash-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.kachi-banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.second-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.gap {
+  margin: 5px;
+}
+
+.waves-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.waves-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.waves-img:hover {
+  width: 400px;
+  box-shadow: 1px 2px 3px 4px blue;
+}
+
+.waters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waters p {
+  font-size: 18px;
+  width: 120px;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  margin: 0px;
+}
+
+
+
+
+
+.human1 {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.human {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  height: 40px;
+  width: 100%;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+
+.human2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: red;
+}
+
+.human3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: greenyellow;
+}
+
+.human4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: green;
+}
+
+.human5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgb(71, 25, 25);
+}
+
+.human6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: chocolate;
+}
+
+.human7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgb(230, 107, 107);
+}
+
+
+.human8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: purple;
+}
+
+.human9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgb(208, 255, 0);
+}
+
+.human h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.human2 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+
+.human3 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: black;
+}
+
+.human4 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: black;
+}
+
+.human5 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+
+.human6 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+
+.human7 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: black;
+}
+
+.human8 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+
+.human9 h1 {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: black;
+}
+
+.waves-img1 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.official {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  height: 50px;
+  margin-bottom: -10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: blue;
+}
+
+.official h1 {
+  margin-top: 20px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+
+.imag {
+  margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.close-tab {
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2px 20px 0px 20px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+
+
+.check p {
+  font-size: 13.5px;
+}
+
+
+.cloth {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.dot-class {
+  padding: 2px 20px 0px 20px;
+}
+
+
+.dot-class p {
+  font-size: 13.5px;
+  margin: -15px;
+}
+
+
+.do {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(36, 35, 35);
+  padding: 0px 10px;
+}
+
+.logos {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.middle-first div h5 {
+  margin-bottom: 0px;
+}
+
+.our {
+  color: gray;
+  font-size: 14px;
+}
+
+.middle-second {
+  display: flex;
+  align-items: center;
+}
+
+.middle-input {
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  height: 21px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;;
+}
+.middle-input:hover {
+  border-color: orange;
+}
+
+.middle-input i {
+  width: 60px;
+  margin-right: -37px;
+  color: black;
+}
+
+.middle-input input {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.male-div {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.male, .female {
+  background-color: rgb(36, 35, 35);
+  border-radius: 5px;
+  width: 90px;
+  height: 55px;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  margin-right: 10px;
+}
+.male:hover, .female:hover {
+  border-color: orange;
+  color: orange;
+}
+
+.my-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.free {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.access {
+  margin-top: 10px;
+}
+
+.app-button {
+  display: flex;
+  align-items: center;
+}
+
+.get-button {
+  display: flex;
+  align-items: center;
+}
+
+
+.buttom-icons {
+  width: 22px;
+  margin-right: 5px;
+}
+
+.right-first {
+  display: flex;
+  align-items: center;
+}
+
+.download-div {
+  display: flex;
+  align-items: center;
+}
+
+
+.app-button {
+  background-color: rgb(36, 35, 35);
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  margin-right: 10px;
+}
+.app-button:hover {
+  border-color: darkorange;
+  color: darkorange;
+}
+
+.down {
+  font-size: 8px;
+  color: lightgray;
+  margin: 0px 10px;
+  width: 60px;
+}
+
+.get {
+  font-size: 8px;
+  color: lightgray;
+  margin: 0px -7px;
+  width: 60px;
+}
+.down:hover, .get:hover {
+  color: darkorange;
+}
+
+.app-button div h4 {
+  margin: 0px 1px;
+  width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttom-div {
+  margin-top: 100px;
+  background-color: white;
+}
+
+.buttom-div h5 {
+  color: black;
+}
+
+.sub-buttom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 20px 5.5% 20px 7%;
+  background-color: white;
+}
+
+
+.help {
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 13px;
+  color: black;
+}
+.help:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+.down-di {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.third-buttom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.third-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+
+.fa-brands {
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.method {
+  color: white;
+}
+
+
+.us {
+  margin-right: 30px;
+}
+
+
+
+
+
+
+
+.forth-buttom {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  height: 40px;
+  border-top: 1px solid rgb(94, 83, 83);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
